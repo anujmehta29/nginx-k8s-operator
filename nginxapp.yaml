@@ -1,0 +1,7 @@
+
+apiVersion: apps.demo.com/v1
+kind: NginxApp
+metadata:
+  name: my-nginx
+spec:
+  replicas: 2
